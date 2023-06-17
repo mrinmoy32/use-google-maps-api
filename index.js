@@ -13,7 +13,7 @@
 
 // new window.google.maps.Marker({ position: center, map: map });
 // -------Following code used from google maps official docs 
-//@https://developers.google.com/maps/documentation/javascript/overview#bootstrap_loader
+//goto:https://developers.google.com/maps/documentation/javascript/overview#js_api_loader_package
 
 let map;
 
