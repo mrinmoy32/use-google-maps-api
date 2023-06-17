@@ -1,0 +1,24 @@
+
+.map-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 95vw;
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+}
+
+#map{
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid red; */
+}
+
+@media (min-width: 768px) {
+    .map-container{
+        height: 95vh;
+    width: 100vw;
+    }
+    
+}

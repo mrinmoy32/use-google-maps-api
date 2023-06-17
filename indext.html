@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleMapAPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="map-container">
+        <div id="map"></div>
+    </div>
+    <script src="index.js"></script>
+    <!-- Added Google Maps JavaScript inline API -->
+    <!-- ***We have kept API KEY EMPTY as api key is paid and credit card needed
+      So in src we would remove the YOUR_API_KEY part. Idealy src looks like below
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" -->
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+    ></script>
+</body>
+</html>
